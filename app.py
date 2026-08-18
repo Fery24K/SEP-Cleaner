@@ -76,7 +76,7 @@ JS_PATTERN = re.compile(
 SEP_PATTERN = re.compile(r'(\d{4})[Rr](\d{7})[Vv](\d{6})')
 
 # ================= Info Aplikasi =================
-APP_VERSION = "1.5"
+APP_VERSION = "1.7"
 GITHUB_REPO = os.environ.get("SEP_CLEANER_GITHUB_REPO")
 DEVELOPER_NAME = "SIMRS Sahabat"
 DEVELOPER_WEBSITE = "https://sahabatmedia.co.id"
@@ -706,7 +706,7 @@ class App(CTkWithDnD):
     def __init__(self):
         super().__init__()
 
-        self.title("SEP Cleaner v1.5 by SIMRS Sahabat")
+        self.title("SEP Cleaner v1.7 by SIMRS Sahabat")
         self.configure(fg_color=BG_PAGE)
         
         icon_ico = resource_path("logo.ico")
@@ -800,7 +800,7 @@ class App(CTkWithDnD):
         title_box.pack(side="left", padx=(12, 0), fill="x", expand=True)
         
         ctk.CTkLabel(
-            title_box, text="SEP Cleaner v1.5 by SIMRS Sahabat", text_color=TEXT_PRIMARY,
+            title_box, text="SEP Cleaner v1.7 by SIMRS Sahabat", text_color=TEXT_PRIMARY,
             font=ctk.CTkFont(family=FONT_FAMILY[0], size=18, weight="bold"), anchor="w"
         ).pack(anchor="w")
 
