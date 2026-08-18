@@ -4,7 +4,7 @@ import re
 from urllib import error, request
 
 
-DEFAULT_REPO = os.environ.get("SEP_CLEANER_GITHUB_REPO", "your-user/your-repo")
+DEFAULT_REPO = os.environ.get("SEP_CLEANER_GITHUB_REPO", "Fery24K/SEP-Cleaner")
 
 
 def normalize_version(value):
